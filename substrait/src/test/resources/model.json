@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "defaultSchema": "tpch",
+  "schemas": [
+    {
+      "name": "tpch",
+      "type": "custom",
+      "factory": "org.apache.calcite.adapter.substrait.SubStraitSchemaFactory",
+      "operand": {
+
+      }
+    }
+  ]
+}

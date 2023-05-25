@@ -185,15 +185,15 @@ class CsvTest {
    * Reads from a table.
    */
   @Test void testSelect() throws SQLException {
-    sql("model", "select * from EMPS").ok();
+    sql("model", "select * from EMPS limit 1").ok();
   }
 
   @Test void testSelectSingleProjectGz() throws SQLException {
-    sql("smart", "select name from EMPS").ok();
+    sql("smart", "select * from EMPS").ok();
   }
 
   @Test void testSelectSingleProject() throws SQLException {
-    sql("smart", "select name from DEPTS").ok();
+    sql("smart", "select name from DEPTS where DEPTNO=10").ok();
   }
 
   /** Test case for

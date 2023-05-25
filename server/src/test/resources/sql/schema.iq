@@ -101,7 +101,7 @@ Was expecting one of:
 # JDBC schema
 create foreign schema scott type 'jdbc' options (
   "jdbcUrl" 'jdbc:hsqldb:res:scott',
-  "jdbcSchema" 'SCOTT',
+  "subStraitSchema" 'SCOTT',
   "jdbcUser" 'SCOTT',
   "jdbcPassword" 'TIGER');
 (0 rows modified)

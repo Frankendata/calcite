@@ -228,7 +228,7 @@ Like base class <a href="#schema">Schema</a>, occurs within `root.schemas`.
   jdbcUser: TODO,
   jdbcPassword: TODO,
   jdbcCatalog: TODO,
-  jdbcSchema: TODO
+  subStraitSchema: TODO
 }
 {% endhighlight %}
 
@@ -241,7 +241,7 @@ jdbcUrl: TODO
 jdbcUser: TODO
 jdbcPassword: TODO
 jdbcCatalog: TODO
-jdbcSchema: TODO
+subStraitSchema: TODO
 {% endhighlight %}
 
 `name`, `type`, `path`, `cache`, `materializations` inherited from
@@ -260,7 +260,7 @@ specified, uses whichever class the JDBC DriverManager chooses.
 `jdbcCatalog` (optional string) is the name of the initial catalog in the JDBC
 data source.
 
-`jdbcSchema` (optional string) is the name of the initial schema in the JDBC
+`subStraitSchema` (optional string) is the name of the initial schema in the JDBC
 data source.
 
 ### Materialization

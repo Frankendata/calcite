@@ -138,7 +138,7 @@ Create a model that includes a lattice:
     "jdbcUser": "FOODMART",
     "jdbcPassword": "FOODMART",
     "jdbcUrl": "jdbc:hsqldb:res:foodmart",
-    "jdbcSchema": "foodmart"
+    "subStraitSchema": "foodmart"
   },
   {
     "name": "adhoc",
@@ -305,7 +305,7 @@ Create a model with a schema that has `"autoLattice": true`:
     "jdbcUser": "FOODMART",
     "jdbcPassword": "FOODMART",
     "jdbcUrl": "jdbc:hsqldb:res:foodmart",
-    "jdbcSchema": "foodmart"
+    "subStraitSchema": "foodmart"
   }, {
     "name": "adhoc",
     "autoLattice": true
